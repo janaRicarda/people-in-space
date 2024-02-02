@@ -42,28 +42,3 @@ async function peopleInSpace() {
 }
 
 peopleInSpace();
-
-// buttonAll.addEventListener("click", () => {
-//     people.forEach((person) => {
-//       const listItem = document.createElement("li");
-
-//       listItem.textContent = person.name;
-//       list.append(listItem);
-//     });
-//     buttonAll.classList.add("current");
-//   });
-
-// buttonISS.addEventListener("click", () => {
-//   people.forEach((person) => {
-//     const listItem = document.createElement("li");
-//     listItem.textContent = person.name;
-//     list.append(listItem);
-//   });
-//   buttonISS.classList.add("current");
-// });
-
-// buttonTiangong.addEventListener("click", () => {
-//   people.filter((person) => {
-//     return person.craft === "Tiangong";
-//   });
-// });
