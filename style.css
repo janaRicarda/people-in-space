@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+  background: linear-gradient(#1e1849, #610788);
+
+  color: white;
+  padding: 20px;
+}
+.up {
+  position: abolute;
+  top: 0;
+  left: 0;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: linear-gradient(#075469, #04ded0);
+  filter: blur(100px);
+  z-index: -1;
+}
+.down {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: linear-gradient(#8b0284, #fade03);
+  filter: blur(100px);
+  z-index: -1;
+}
+main {
+  padding-top: 20px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+article {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: aqua;
+  color: #1e1849;
+  border: none;
+}
+
+button:focus {
+  background-color: darkorchid;
+  color: white;
+  border: none;
+}
